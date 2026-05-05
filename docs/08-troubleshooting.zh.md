@@ -9,9 +9,11 @@
 **原因**：multica 未安装，或不在 PATH 中
 
 **解决**：
-1. 检查安装路径（通常在 `C:\Users\<用户名>\AppData\Local\Programs\@multicadesktop\resources\...\bin\`）
-2. 将该路径添加到 Windows 系统环境变量 PATH
-3. 重启终端
+1. 从官方仓库下载安装包并运行 Windows `setup.exe`：`https://github.com/multica-ai/multica`
+2. 检查安装路径（通常在 `C:\Users\<用户名>\AppData\Local\Programs\@multicadesktop\resources\...\bin\`）
+3. 将该路径添加到 Windows 系统环境变量 PATH
+4. 重启终端
+5. 运行 `multica setup` 完成登录和基础配置
 
 ### No server configured
 

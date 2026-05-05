@@ -15,7 +15,7 @@
    - Ideas：适合回复与 agent-skill pack / CLI orchestration 相关的讨论
    - General：适合简单分享用户体验
    - Q&A：只回答问题，不推广
-4. 回复的内容应该是什么？（简短经验 + 链接，还是详细教程？）
+4. 评论或 issue 的内容应该是什么？（简短经验 + 链接，还是详细教程？）
 5. 是否需要先优化文档语言？
 
 ## 安全要求
@@ -27,7 +27,7 @@
 
 ## 推荐 GitHub 地址
 
-- 仓库主页：https://github.com/multica-ai/multica
+- 官方仓库：https://github.com/multica-ai/multica
 - Discussions：https://github.com/multica-ai/multica/discussions
 - Show and tell：https://github.com/multica-ai/multica/discussions/categories/show-and-tell
 - Ideas：https://github.com/multica-ai/multica/discussions/categories/ideas

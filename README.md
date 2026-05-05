@@ -67,6 +67,21 @@ Manager Agent
 
 ## 快速开始
 
+### 第零步：安装并初始化 Multica
+
+先从官方仓库获取 Multica：
+
+- 官方仓库：[https://github.com/multica-ai/multica](https://github.com/multica-ai/multica)
+- Windows 用户可从官方 Releases 下载并运行 `setup.exe`，或按官方 README 使用安装命令
+
+安装后运行：
+
+```bash
+multica setup
+```
+
+完成登录和基础配置后，再继续设计 agent 工作流。
+
 ### 第一步：列出你的模型
 
 | 模型名称 | 能力评级 | 价格 | 额度限制 |
@@ -162,7 +177,6 @@ multica-agent-workflow-template/
     agent-structures.zh.md          # Agent 结构示例
     skill-mapping-examples.zh.md    # Skill 映射示例
     issue-description-templates.zh.md # Issue 模板
-    github-reply-drafts.zh.md       # GitHub 回复草稿
   SECURITY.md
   LICENSE
   .gitignore
@@ -185,7 +199,7 @@ multica-agent-workflow-template/
 5. **Issues**：只在遇到 bug 或 feature request 时使用
 
 参考地址：
-- 仓库主页：[https://github.com/multica-ai/multica](https://github.com/multica-ai/multica)
+- 官方仓库：[https://github.com/multica-ai/multica](https://github.com/multica-ai/multica)
 - Discussions：[https://github.com/multica-ai/multica/discussions](https://github.com/multica-ai/multica/discussions)
 
 ---
