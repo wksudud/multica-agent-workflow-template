@@ -15,24 +15,11 @@
 
 如果你基于本模板创建自己的项目并计划公开发布：
 
-1. **运行脱敏检查**：见 `docs/09-sanitization-checklist.zh.md`
+1. **运行脱敏检查**：逐项检查个人信息、密钥、路径、workspace 信息和内部链接
 2. **不要上传 `.multica/` 目录内容**
 3. **不要上传 `daemon.log` 或其他日志文件**
 4. **检查 issue description 模板中是否有真实数据**
 5. **用占位符替换所有个人化信息**
-
-## 发布流程
-
-将本模板发布到 GitHub 时，必须遵循以下流程：
-
-1. **先上传到 private 仓库**（不要直接创建 public 仓库）
-2. **在 GitHub 上检查文件视图**：逐文件确认无敏感信息暴露
-3. **启用 GitHub secret scanning**：让 GitHub 自动扫描可能的密钥和令牌
-4. **重新运行脱敏检查**：`docs/09-sanitization-checklist.zh.md`
-5. **人工确认**：以上全部通过后，由人类明确决定是否可以公开
-6. **转为 public**：确认后方可将仓库可见性改为 public
-
-如果项目是从已有 git 历史的仓库发布，还需要运行 git history secret scanning 检查历史提交中是否包含敏感信息。
 
 ## Agent 安全
 

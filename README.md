@@ -24,7 +24,7 @@ Multica Agent Workflow Template 帮助你：
 | 有多个模型（便宜的 + 主力的 + 最强的），不知道怎么分任务 | 设计按能力/成本分层的 agent 结构 |
 | 想用一个 manager agent 管理多个 worker agent | 提供 manager pattern 的完整模板和指令 |
 | 看到别人的复杂配置想复制，但不确定是否适合自己 | **告诉你不要照抄，而是理解原理后自己设计** |
-| 想把自己的 Multica 工作流整理成可复用的开源模板 | 提供项目结构、文档模板和脱敏检查清单 |
+| 想把自己的 Multica 工作流整理成可复用的开源模板 | 提供项目结构、文档模板和分享策略 |
 
 ---
 
@@ -124,7 +124,7 @@ Manager Agent
 - 不要上传邮箱或真实账号名
 - 不要让 agent 自动 push 或发布
 - 高权限 skill（鼠标控制、浏览器控制、系统操作）需谨慎分配
-- 发 GitHub 前运行 `docs/09-sanitization-checklist.zh.md` 中的检查清单
+- 发 GitHub 前逐项检查个人信息、密钥、路径和 workspace 信息是否已替换为占位符
 
 ---
 
@@ -142,7 +142,6 @@ multica-agent-workflow-template/
     06-testing-workflow.zh.md       # 测试流程
     07-case-study-my-setup.zh.md    # 作者案例（仅供参考）
     08-troubleshooting.zh.md        # 常见排错
-    09-sanitization-checklist.zh.md # 开源前检查清单
   skills/
     multica-workflow-bootstrapper/  # 工作流初始化向导（入口 skill）
       SKILL.md
