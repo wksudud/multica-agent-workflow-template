@@ -1,5 +1,7 @@
 # Multica Agent Workflow Template
 
+> 本项目基于 [Multica](https://github.com/multica-ai/multica) 官方软件构建。Multica 是一个 managed agents 平台，本模板帮助你在其上设计自己的多 agent + skill 工作流。
+>
 > **这不是一份固定配置清单。** 这是一个帮助你设计**你自己的** Multica 多 agent + skill 工作流的方法论模板。
 
 ---
