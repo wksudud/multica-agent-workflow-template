@@ -10,6 +10,7 @@
 2. **一个 skill 可以分配给多个 agent**（如 karpathy-guidelines 适合所有编程 agent）。
 3. **高权限 skill 谨慎分配**（只给最需要它的 agent）。
 4. **路由和 CLI 类 skill 只给 manager agent**。
+5. **不要给单个 agent 添加过多 skill**。skill 过多会增加上下文和判断负担，可能导致回复很慢甚至卡住。
 
 ---
 
@@ -80,7 +81,7 @@
 
 在分配 skill 之后，用这个清单验证：
 
-- [ ] 每个 agent 的 skill 数量在 3-10 之间（太多会增加判断负担）
+- [ ] 每个 agent 的 skill 数量在 3-10 之间（太多会增加判断负担，可能让回复变慢甚至卡住）
 - [ ] Manager agent 有 cn-skill-router 和 multica-cli-operator
 - [ ] 高权限 skill 只分配给明确需要的 agent
 - [ ] 审查类 skill 分配给了 Review agent
