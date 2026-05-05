@@ -1,0 +1,28 @@
+# Multica
+.multica/
+daemon.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+*.key
+credentials.json
+auth.json
+cap_sid
+
+# Runtime residue
+_snapshot/
+*.bak
+*.sqlite
+*.sqlite-*
