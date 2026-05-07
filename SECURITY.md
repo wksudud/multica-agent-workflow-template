@@ -27,6 +27,18 @@
 - 不要让 agent 自动执行 git push、发布、支付等操作
 - 创建 manager agent 时，在其 instructions 中明确禁止操作列表
 
+## 第三方 Skill 安全提醒
+
+本项目文档中引用的 ClawHub/Anthropic 第三方 skill **不包含在本仓库中**，仅以链接形式提供参考。
+
+安装任何第三方 skill 前，建议：
+1. 查看 skill 源码（SKILL.md 和关联脚本）
+2. 检查 skill 的权限声明和网络请求
+3. 先在不含敏感数据的测试环境中试用
+4. 已安装的 skill 建议定期审查和更新
+
+本仓库内的 `skills/_implementation-details/` 目录中的参考实现已经过脱敏处理，可直接安全使用。
+
 ## 报告安全问题
 
 如果你在本项目中发现了安全问题（例如遗漏的个人信息），请通过 GitHub Issues 报告。
