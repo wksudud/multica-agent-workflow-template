@@ -1,7 +1,7 @@
 # 实现细节（已被 Skill 取代）
 
-> 本目录包含 `cn-skill-router` 和 `multica-cli-operator` 的参考实现 SKILL.md 文件。
-> 这些文件是**具体实施细节**，供想了解 skill 内部逻辑的用户参考。
+> **新手请忽略本目录。** 使用 `multica-workflow-bootstrapper`（入口 skill）即可自动完成初始化。
+> 本目录仅供想了解 skill 内部设计逻辑或需要手动定制的用户参考。
 
 ---
 

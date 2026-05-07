@@ -26,3 +26,6 @@ _snapshot/
 *.bak
 *.sqlite
 *.sqlite-*
+
+# mdBook
+book/

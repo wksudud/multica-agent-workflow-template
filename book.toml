@@ -1,0 +1,17 @@
+[book]
+authors = ["Multica Agent Workflow Template contributors"]
+language = "zh"
+multilingual = false
+src = "docs"
+title = "Multica Agent Workflow Template"
+
+[build]
+build-dir = "book"
+
+[output.html]
+git-repository-url = "https://github.com/wksudud/multica-agent-workflow-template"
+site-url = "/multica-agent-workflow-template/"
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true

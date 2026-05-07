@@ -176,7 +176,7 @@ multica-agent-workflow-template/
     06-test-multica-dispatch.zh.md
     07-prepare-github-sharing.zh.md
     08-create-workflow-bootstrapper.zh.md
-  examples/
+  docs/examples/
     agent-structures.zh.md          # Agent 结构示例
     skill-mapping-examples.zh.md    # Skill 映射示例
     issue-description-templates.zh.md # Issue 模板
