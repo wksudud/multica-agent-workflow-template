@@ -44,6 +44,7 @@ Multica Agent Workflow Template 帮助你：
 ## 免责声明
 
 > **本项目是方法论文档集，不是即装即用的配置。** 所有 agent 配置案例仅供参考，请根据自身需求设计。引用的第三方 skill 仅提供链接，不包含在本仓库中。详见 [README 免责声明](https://github.com/wksudud/multica-agent-workflow-template#免责声明)。
+> **本文档大部分由 AI agent 辅助生成，可能存在错误。** 请在参考和使用前自行验证关键内容。
 
 ## 安全提醒
 
