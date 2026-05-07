@@ -216,9 +216,12 @@
 
 ---
 
+
+---
+
 ## 附录：Skill 来源一览
 
-以下标注每个 skill 的来源。带 `clawhub install` 的为 ClawHub 公开 skill，标注"自建"的为作者自定义。
+以下标注每个 skill 的来源。ClawHub 公开 skill 仅提供链接，**不上传 skill 文件**；标注"自建"的为作者自定义。
 
 ### 写作相关
 
@@ -226,10 +229,10 @@
 |-------|------|----------|
 | Humanizer | ClawHub | `clawhub install humanizer` |
 | Obsidian Markdown | ClawHub | `clawhub install obsidian` |
-| Bookmark Keeper | ClawHub 类似 skill | `clawhub install karakeep` 或 `clawhub install gog` |
-| doc-coauthoring | Anthropic 官方 | Claude Code 内置，`px skills add anthropic/doc-coauthoring` |
-| Codebase Documenter | 自建 | 无公开下载 |
-| 深度话题调研工作流 | 自建 | 无公开下载 |
+| Bookmark Keeper | 待确认 | ClawHub 有类似 `karakeep` / `gog` |
+| doc-coauthoring | Anthropic 官方 | Claude Code 内置 |
+| Codebase Documenter | ClawHub | `clawhub install veeramanikandanr48/codebase-documenter` |
+| 深度话题调研工作流 | ClawHub | `clawhub install realpda/deep-topic-research` |
 
 ### 编程相关
 
@@ -237,10 +240,10 @@
 |-------|------|----------|
 | karpathy-guidelines | ClawHub | `clawhub install karpathy-guidelines` |
 | Aj Github | ClawHub | `clawhub install aj-github` |
-| Agent Git Oracle | 自建 | 无公开下载 |
-| Coding Lead | 自建 | 无公开下载 |
-| OpenClaw JSON Toolkit | 自建 | 无公开下载 |
-| SpecVibe | 自建 | 无公开下载 |
+| Coding Lead | ClawHub | `clawhub install beyound87/coding-lead` |
+| SpecVibe | ClawHub | `clawhub install badideal-2046/specvibe` |
+| Agent Git Oracle | ClawHub | `clawhub install tmstudio667-commits/agent-git-oracle` |
+| OpenClaw JSON Toolkit | ClawHub | `clawhub install yedanyagamiai-cmd/openclaw-json-toolkit` |
 | skill-guard | 自建 | 无公开下载 |
 
 ### 媒体/设计相关
@@ -248,10 +251,10 @@
 | Skill | 来源 | 获取方式 |
 |-------|------|----------|
 | Nano Banana Pro | ClawHub | `clawhub install nano-banana-pro` |
-| Openai Image Gen | ClawHub | 搜索 `openai-image-gen` 或 `gpt-image` |
+| Openai Image Gen | 待确认 | ClawHub 有多个 `openai-image` 变体 |
 | Anthropic Frontend Design | Anthropic 官方 | `px skills add anthropic/frontend-design` |
-| Frontend Design Extractor | 自建 | 无公开下载 |
-| image-generation-operator | 自建 | 无公开下载 |
+| Frontend Design Extractor | ClawHub | `clawhub install xsir0/frontend-design-extractor` |
+| image-generation-operator | 自建 | 无公开下载（封装 Nano Banana + OpenAI 调度） |
 
 ### 管理与安全
 
@@ -262,4 +265,8 @@
 | multica-cli-operator | 自建 | 见本仓库 `skills/_implementation-details/multica-cli-operator/` |
 | review-acceptance-operator | 自建 | 无公开下载 |
 
-> **说明**：标注为"自建"的 skill 是作者根据自身工作流定制的，不适合直接复用。建议理解原理后用 `multica-workflow-bootstrapper` 引导创建你自己的版本。
+> **说明**：
+> - ClawHub 公开 skill **不上传文件**，仅提供安装链接
+> - "自建" skill 是作者根据自身工作流定制的，不建议直接复用
+> - `cn-skill-router` 和 `multica-cli-operator` 的参考实现在本仓库 `skills/_implementation-details/` 中
+> - `Bookmark Keeper` 和 `Openai Image Gen` 来源待确认，如你知道确切来源请补充
