@@ -221,7 +221,7 @@
 
 ## 附录：Skill 来源一览
 
-以下标注每个 skill 的来源。ClawHub 公开 skill 仅提供链接，**不上传 skill 文件**；标注"自建"的为作者自定义。
+ClawHub 公开 skill 仅提供链接，**不上传文件**；标注"自建"的为作者自定义。
 
 ### 写作相关
 
@@ -229,7 +229,7 @@
 |-------|------|----------|
 | Humanizer | ClawHub | `clawhub install humanizer` |
 | Obsidian Markdown | ClawHub | `clawhub install obsidian` |
-| Bookmark Keeper | 待确认 | ClawHub 有类似 `karakeep` / `gog` |
+| Bookmark Keeper | ClawHub | `clawhub install ckchzh/bookmark-keeper` |
 | doc-coauthoring | Anthropic 官方 | Claude Code 内置 |
 | Codebase Documenter | ClawHub | `clawhub install veeramanikandanr48/codebase-documenter` |
 | 深度话题调研工作流 | ClawHub | `clawhub install realpda/deep-topic-research` |
@@ -244,14 +244,13 @@
 | SpecVibe | ClawHub | `clawhub install badideal-2046/specvibe` |
 | Agent Git Oracle | ClawHub | `clawhub install tmstudio667-commits/agent-git-oracle` |
 | OpenClaw JSON Toolkit | ClawHub | `clawhub install yedanyagamiai-cmd/openclaw-json-toolkit` |
-| skill-guard | 自建 | 无公开下载 |
 
 ### 媒体/设计相关
 
 | Skill | 来源 | 获取方式 |
 |-------|------|----------|
 | Nano Banana Pro | ClawHub | `clawhub install nano-banana-pro` |
-| Openai Image Gen | 待确认 | ClawHub 有多个 `openai-image` 变体 |
+| Openai Image Gen | ClawHub | `clawhub install steipete/openai-image-gen` |
 | Anthropic Frontend Design | Anthropic 官方 | `px skills add anthropic/frontend-design` |
 | Frontend Design Extractor | ClawHub | `clawhub install xsir0/frontend-design-extractor` |
 | image-generation-operator | 自建 | 无公开下载（封装 Nano Banana + OpenAI 调度） |
@@ -267,6 +266,6 @@
 
 > **说明**：
 > - ClawHub 公开 skill **不上传文件**，仅提供安装链接
-> - "自建" skill 是作者根据自身工作流定制的，不建议直接复用
-> - `cn-skill-router` 和 `multica-cli-operator` 的参考实现在本仓库 `skills/_implementation-details/` 中
-> - `Bookmark Keeper` 和 `Openai Image Gen` 来源待确认，如你知道确切来源请补充
+> - 自建 skill 是作者根据自身工作流定制的，不建议直接复用
+> - `cn-skill-router` 和 `multica-cli-operator` 参考实现在本仓库 `skills/_implementation-details/`
+> - `skill-guard` 来源不确定，未列入
