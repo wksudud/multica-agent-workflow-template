@@ -213,3 +213,53 @@
 3. 每个 agent 职责边界清晰（知道什么该做什么不该做）
 4. 有独立的审查节点（人或 agent）
 5. 高风险操作有明确的人工确认点
+
+---
+
+## 附录：Skill 来源一览
+
+以下标注每个 skill 的来源。带 `clawhub install` 的为 ClawHub 公开 skill，标注"自建"的为作者自定义。
+
+### 写作相关
+
+| Skill | 来源 | 获取方式 |
+|-------|------|----------|
+| Humanizer | ClawHub | `clawhub install humanizer` |
+| Obsidian Markdown | ClawHub | `clawhub install obsidian` |
+| Bookmark Keeper | ClawHub 类似 skill | `clawhub install karakeep` 或 `clawhub install gog` |
+| doc-coauthoring | Anthropic 官方 | Claude Code 内置，`px skills add anthropic/doc-coauthoring` |
+| Codebase Documenter | 自建 | 无公开下载 |
+| 深度话题调研工作流 | 自建 | 无公开下载 |
+
+### 编程相关
+
+| Skill | 来源 | 获取方式 |
+|-------|------|----------|
+| karpathy-guidelines | ClawHub | `clawhub install karpathy-guidelines` |
+| Aj Github | ClawHub | `clawhub install aj-github` |
+| Agent Git Oracle | 自建 | 无公开下载 |
+| Coding Lead | 自建 | 无公开下载 |
+| OpenClaw JSON Toolkit | 自建 | 无公开下载 |
+| SpecVibe | 自建 | 无公开下载 |
+| skill-guard | 自建 | 无公开下载 |
+
+### 媒体/设计相关
+
+| Skill | 来源 | 获取方式 |
+|-------|------|----------|
+| Nano Banana Pro | ClawHub | `clawhub install nano-banana-pro` |
+| Openai Image Gen | ClawHub | 搜索 `openai-image-gen` 或 `gpt-image` |
+| Anthropic Frontend Design | Anthropic 官方 | `px skills add anthropic/frontend-design` |
+| Frontend Design Extractor | 自建 | 无公开下载 |
+| image-generation-operator | 自建 | 无公开下载 |
+
+### 管理与安全
+
+| Skill | 来源 | 获取方式 |
+|-------|------|----------|
+| Pre Publish Security | ClawHub | `clawhub install pre-publish-security` |
+| cn-skill-router | 自建 | 见本仓库 `skills/_implementation-details/cn-skill-router/` |
+| multica-cli-operator | 自建 | 见本仓库 `skills/_implementation-details/multica-cli-operator/` |
+| review-acceptance-operator | 自建 | 无公开下载 |
+
+> **说明**：标注为"自建"的 skill 是作者根据自身工作流定制的，不适合直接复用。建议理解原理后用 `multica-workflow-bootstrapper` 引导创建你自己的版本。
