@@ -12,6 +12,7 @@
 - [测试流程](06-testing-workflow.zh.md)
 - [作者案例](07-case-study-my-setup.zh.md)
 - [常见排错](08-troubleshooting.zh.md)
+- [真实案例：11-Agent 配置](09-real-world-agent-setup.zh.md)
 
 ## 示例
 

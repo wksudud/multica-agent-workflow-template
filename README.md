@@ -160,6 +160,7 @@ multica-agent-workflow-template/
     06-testing-workflow.zh.md       # 测试流程
     07-case-study-my-setup.zh.md    # 作者案例（仅供参考）
     08-troubleshooting.zh.md        # 常见排错
+    09-real-world-agent-setup.zh.md # 真实案例：11-Agent 配置
   skills/
     multica-workflow-bootstrapper/  # 工作流初始化向导（入口 skill）
       SKILL.md
