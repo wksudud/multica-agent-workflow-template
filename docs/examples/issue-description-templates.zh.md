@@ -51,6 +51,51 @@
 
 ---
 
+## 中大型任务 ContextPacket 模板
+
+适合：新项目、跨文件修改、公开发布前准备、需要多个 agent 协作的任务。
+
+```
+标题：[PROJECT] <项目或任务名称>
+
+Goal / 目标：
+<一句话说明要交付什么>
+
+Inputs / 输入：
+- <相关文件或公开链接>
+- <已有约束或用户偏好>
+
+Expected outputs / 期望产物：
+- <文档、代码、Demo、检查报告等>
+
+Constraints / 约束：
+- 不上传 token、cookie、API key、私钥
+- 不发布本地绝对路径、workspace 名称、真实 issue ID
+- 不修改无关文件
+- 不自动 push、发布、删除或改账号权限
+
+Acceptance / 验收标准：
+- <用户可见结果>
+- <测试或检查命令通过>
+- <公开内容已脱敏>
+
+Failure boundary / 失败边界：
+- 遇到凭据、账号、付款、发布、删除、不可逆操作时停止并询问
+- 找不到必要上下文时返回 blocker，不编造
+
+File whitelist / 文件边界：
+- <允许修改的路径>
+
+Evidence required / 必须返回的证据：
+- changed_paths
+- verification commands and results
+- assumptions
+- blockers
+- next action
+```
+
+---
+
 ## 审查任务 Issue 模板
 
 ```

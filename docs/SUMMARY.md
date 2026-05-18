@@ -13,9 +13,13 @@
 - [作者案例](07-case-study-my-setup.zh.md)
 - [常见排错](08-troubleshooting.zh.md)
 - [真实案例：11-Agent 配置](09-real-world-agent-setup.zh.md)
+- [契约、证据和发布边界](09-context-contract-and-evidence.zh.md)
 
 ## 示例
 
 - [Agent 结构示例](examples/agent-structures.zh.md)
 - [Skill 映射示例](examples/skill-mapping-examples.zh.md)
 - [Issue 描述模板](examples/issue-description-templates.zh.md)
+- [ContextPacket 示例](examples/context-packet-example.zh.md)
+- [项目启动包示例](examples/project-start-package.zh.md)
+- [发布前检查清单](examples/release-gate-checklist.zh.md)

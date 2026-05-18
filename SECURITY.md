@@ -20,12 +20,16 @@
 3. **不要上传 `daemon.log` 或其他日志文件**
 4. **检查 issue description 模板中是否有真实数据**
 5. **用占位符替换所有个人化信息**
+6. **只发布抽象方法、模板和示例，不发布原始运行记录**
+7. **发布前执行 `docs/examples/release-gate-checklist.zh.md` 中的检查**
 
 ## Agent 安全
 
 - 高权限 skill（Win Mouse Native、Pre Publish Security、Aj Github 等）分配前需确认必要性
 - 不要让 agent 自动执行 git push、发布、支付等操作
 - 创建 manager agent 时，在其 instructions 中明确禁止操作列表
+- 对中大型任务，建议先写 ContextPacket / TaskContract，再派给 worker agent
+- Agent 声称完成时，应返回 changed paths、verification、assumptions、blockers 和 next action
 
 ## 第三方 Skill 安全提醒
 

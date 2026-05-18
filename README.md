@@ -65,6 +65,14 @@ Manager Agent
   汇总结果 → 反馈给用户
 ```
 
+更稳健的中大型任务可以再加一层轻量契约：
+
+```
+Direction → ContextPacket / TaskContract → Delegation → Verification → Artifact
+```
+
+也就是说：先把目标、约束、验收、失败边界写清楚，再派单；agent 返回时必须带证据，而不是只说"完成了"。
+
 ---
 
 ## 快速开始
@@ -161,6 +169,7 @@ multica-agent-workflow-template/
     07-case-study-my-setup.zh.md    # 作者案例（仅供参考）
     08-troubleshooting.zh.md        # 常见排错
     09-real-world-agent-setup.zh.md # 真实案例：11-Agent 配置
+    09-context-contract-and-evidence.zh.md # 契约、证据和发布边界
   skills/
     multica-workflow-bootstrapper/  # 工作流初始化向导（入口 skill）
       SKILL.md
@@ -181,6 +190,9 @@ multica-agent-workflow-template/
     agent-structures.zh.md          # Agent 结构示例
     skill-mapping-examples.zh.md    # Skill 映射示例
     issue-description-templates.zh.md # Issue 模板
+    context-packet-example.zh.md    # ContextPacket 示例
+    project-start-package.zh.md     # 项目启动包示例
+    release-gate-checklist.zh.md    # 发布前检查清单
   SECURITY.md
   LICENSE
   .gitignore

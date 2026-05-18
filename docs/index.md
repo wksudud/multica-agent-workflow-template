@@ -40,6 +40,19 @@ Multica Agent Workflow Template 帮助你：
 | [测试流程](06-testing-workflow.zh.md) | 低风险测试方法 |
 | [作者案例](07-case-study-my-setup.zh.md) | 7-agent 配置案例（仅供参考） |
 | [常见排错](08-troubleshooting.zh.md) | 常见问题和解决方案 |
+| [真实案例：11-Agent 配置](09-real-world-agent-setup.zh.md) | 真实配置案例，供参考而非照抄 |
+| [契约、证据和发布边界](09-context-contract-and-evidence.zh.md) | ContextPacket、证据化验收和发布边界 |
+
+## 示例导航
+
+| 示例 | 内容 |
+|------|------|
+| [Agent 结构示例](examples/agent-structures.zh.md) | 不同规模的 agent 组织方式 |
+| [Skill 映射示例](examples/skill-mapping-examples.zh.md) | skill 如何映射到 agent 和任务类型 |
+| [Issue 描述模板](examples/issue-description-templates.zh.md) | 写作、编程、审查和 ContextPacket 模板 |
+| [ContextPacket 示例](examples/context-packet-example.zh.md) | 中大型任务的紧凑派单契约 |
+| [项目启动包示例](examples/project-start-package.zh.md) | requirements / design / AGENTS / prompt 文件包 |
+| [发布前检查清单](examples/release-gate-checklist.zh.md) | GitHub 公开发布前的脱敏和风险检查 |
 
 ## 免责声明
 
